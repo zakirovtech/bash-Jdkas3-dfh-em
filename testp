@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+### Test script to check monitor test functionality
+
+while [ 1 -eq 1 ]; do
+  sleep 1m
+done
+

@@ -1,0 +1,12 @@
+[Unit]
+Description=Just test service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/MonitorTest/monitor-test.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
